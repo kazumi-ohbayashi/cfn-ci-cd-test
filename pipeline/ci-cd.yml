@@ -9,7 +9,7 @@ Parameters:
   Repo:
     Type: String
 #    Default: cfn-ci-cd-demo
-    Default: test-p0308
+    Default: cfn-ci-cd-test
   Email:
     Type: String
     Default: kazumi.ohbayashi@nextor.jp
@@ -28,6 +28,7 @@ Parameters:
   OAuthToken:
     Type: String
     NoEcho: true
+    Default: 874d289da6b9c3cdd350e8b81477ed41c72d8382
 
 Metadata:
   AWS::CloudFormation::Interface:
