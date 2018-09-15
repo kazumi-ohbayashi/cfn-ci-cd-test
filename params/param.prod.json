@@ -1,0 +1,8 @@
+{
+  "Parameters": {
+    "Stage": "prod",
+    "VPCCidrBlock": "192.168.0.0/16",
+    "KeyName": "AWS_EC2_test1",
+    "InstanceType": "t2.micro"
+  }
+}
